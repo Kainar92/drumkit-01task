@@ -1,0 +1,16 @@
+{
+  "name": "drumkit",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://kainar92.github.io/drumkit-01task",
+  "main": "index.js",
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "gh-pages": "^2.0.1"
+  }
+}
